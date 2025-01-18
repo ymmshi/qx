@@ -22,9 +22,8 @@ if(user.test($request.url)){
   chxm1023.data.premium_profile = {
     "apple_app_store_is_auto_renew" : true,
     "type_text" : "永久会员",
-    "expired_at": "2099-09-09 09:09:09",
-    "purchase_date_ms": "1737069627000",
-    "type" : "monthly",
+    "expired_at" : null,
+    "type" : "studio.2players.wardrobe.pro.lifetime",
     "show_subscription_management" : false,
     "apple_app_store_is_receipt_bound" : true
   };
@@ -34,10 +33,9 @@ if(receipt.test($request.url)){
   chxm1023.data = {
     ...chxm1023.data,
     "type_text" : "永久会员",
-    "expired_at": "2099-09-09 09:09:09",
-    "purchase_date_ms": "1737069627000",
+    "expired_at" : null,
     "apple_app_store_auto_renew" : true,
-    "type" : "monthly"
+    "type" : "studio.2players.wardrobe.pro.lifetime"
   };
 }
 
