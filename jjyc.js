@@ -6,7 +6,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/closet\.jinjian\.tech\/api\/v3.1\/(users\/profile|apple_app_store\/resolve_receipt|payments\/orders\/sync_from_apple_app_store) url script-response-body https://raw.githubusercontent.com/axtyet/animator/main/repository/chxm1023/Rewrite/jjyc.js
+^https?:\/\/closet\.jinjian\.tech\/api\/v3.1\/(users\/profile|apple_app_store\/resolve_receipt|payments\/orders\/sync_from_apple_app_store) url script-response-body https://raw.githubusercontent.com/ymmshi/qx/refs/heads/main/jjyc.js
 
 [mitm]
 hostname = closet.jinjian.tech
