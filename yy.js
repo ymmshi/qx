@@ -20,7 +20,7 @@ const main = /appstore/;
 if(main.test($request.url)){
   chxm1023 = {
     "msg" : "恢复成功",
-    "code" : 1
+    "code" : 200
   };
 }
 
