@@ -6,7 +6,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/y.weixinmy.com\/appstore) url script-response-body https://raw.githubusercontent.com/ymmshi/qx/main/yy.js
+^https?:\/\/y\.weixinmy\.com\/appstore url script-response-body https://raw.githubusercontent.com/ymmshi/qx/main/yy.js
 [mitm]
 hostname = y.weixinmy.com
 
